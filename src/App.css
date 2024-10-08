@@ -1,42 +1,56 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* @import "/node_modules/modern-normalize/modern-normalize.css";
+
+:root {
+  --color-primary-white: #fff;
+  --color-primary-black: #050505;
+  --color-primary-violet: #b6c3ff;
+  --color-primary-black-2: #0f0f0f;
+  --color-primary-lite-green: #45ffbc;
+  --color-primary-grey: #b6b6b6;
+  --color-primary-green-lite: #e3ffa8;
+  --secondary-color-grey: #292928;
+  --secondary-color-pink: #ffc4f7;
+  --secondary-color-yellow: #fff3b7;
+  --add-water-button-color: #e3ffa8;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  background-color: var(--color-primary-black);
+  overflow-y: scroll;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  user-select: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+ul,
+ol {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
-.card {
-  padding: 2em;
+img {
+  display: block;
 }
 
-.read-the-docs {
-  color: #888;
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary-white);
 } */

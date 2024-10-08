@@ -1,6 +1,7 @@
 {
   "name": "for-your-healthy",
   "private": true,
+  "homepage": "https://annahort.github.io/for-your-healthy/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,7 +12,8 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
