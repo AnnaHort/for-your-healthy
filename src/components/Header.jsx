@@ -37,7 +37,9 @@ const Header = () => {
           <UserIcon />
         </div>
       </div>
-      <Outlet />
+      <div className="py-6 px-2.5 md:py-10 md:px-0">
+        <Outlet />
+      </div>
     </>
   );
 };

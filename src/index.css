@@ -23,6 +23,15 @@
     font-display: swap;
     src: url(/src/assets/fonts/Poppins-Bold.ttf) format("truetype");
   }
+
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    font-display: swap;
+    src: url(/src/assets/fonts/Poppins-Medium.ttf) format("truetype");
+  }
 }
 
 :root {
@@ -44,6 +53,7 @@ body {
   margin: 0;
   width: 100%;
   box-sizing: border-box;
+  color: white;
 }
 
 h1,

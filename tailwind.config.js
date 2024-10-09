@@ -21,9 +21,15 @@ export default {
     fontFamily: {
       poppins: ["Poppins"],
     },
-    // fontSize: {
-    //   bodyText1: "14px",
-    // },
+    fontSize: {
+      medium24: ["24px", { fontWeight: "500" }],
+      regular18: ["18px", { fontWeight: "400" }],
+      buttonText1: ["14px", { fontWeight: "400", lineHeight: "1.4" }],
+      buttonText2: ["16px", { fontWeight: "400", lineHeight: "1.38" }],
+      bodyText1: ["14px", { fontWeight: "400", lineHeight: "1.4" }],
+      headLineTextH1: ["30px", { fontWeight: "400", lineHeight: "1.2" }],
+      headLineTextH2: ["22px", { fontWeight: "400", lineHeight: "1.45" }],
+    },
   },
   plugins: [],
 };
