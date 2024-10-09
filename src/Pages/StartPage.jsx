@@ -1,6 +1,16 @@
 import StartPageSvg from "../assets/svg/StartPageSvg";
+import { useNavigate } from "react-router-dom";
 
 const StartPage = () => {
+  const navigate = useNavigate();
+
+  const handleClickIn = () => {
+    navigate("/signin"); // Задайте шлях до сторінки, на яку потрібно перейти
+  };
+  const handleClickUp = () => {
+    navigate("/signup"); // Задайте шлях до сторінки, на яку потрібно перейти
+  };
+
   return (
     <div className="m-auto lg:flex lg:gap-20 lg:max-w-[1140px] lg:m-auto">
       <StartPageSvg />
@@ -14,10 +24,16 @@ const StartPage = () => {
           </p>
         </div>
         <div className="flex mb-10 md:mb-20 md:max-w-[380px] md:mx-auto lg:max-w-full">
-          <button className="buttonText1 bg-liteGreen text-black w-full rounded-xl py-2 px-2.5">
+          <button
+            onClick={handleClickIn}
+            className="buttonText1 bg-liteGreen text-black w-full rounded-xl py-2 px-2.5"
+          >
             Sign in
           </button>
-          <button className="buttonText1 w-full rounded-xl py-2 px-2.5">
+          <button
+            onClick={handleClickUp}
+            className="buttonText1 w-full rounded-xl py-2 px-2.5"
+          >
             Sign up
           </button>
         </div>
