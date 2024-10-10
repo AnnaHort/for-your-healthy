@@ -13,7 +13,7 @@ export default {
       violet: "#b6c3ff",
       liteGreen: "#e3ffa8",
       liteGreen2: "#45ffbc",
-      gray: "#b6b6b6",
+      grey: "#b6b6b6",
       gray2: "#292928",
       pink: "#ffc4f7",
       yellow: "#fff3b7",

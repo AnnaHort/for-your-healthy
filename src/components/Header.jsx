@@ -7,7 +7,7 @@ const Header = () => {
       <div className="flex justify-between items-center bg-black2 py-4 px-2 md:py-6 md:px-4">
         <NavLink
           to="/"
-          className="font-bold text-gray aria-[current=page]:text-liteGreen md:text-xl"
+          className="font-bold text-grey aria-[current=page]:text-liteGreen md:text-xl"
         >
           HealthyHub
         </NavLink>

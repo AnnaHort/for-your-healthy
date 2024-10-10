@@ -14,12 +14,12 @@ const StartPage = () => {
   return (
     <div className="m-auto lg:flex lg:gap-20 lg:max-w-[1140px] lg:m-auto">
       <StartPageSvg />
-      <div className="m-auto max-w-[375px] md:max-w-[444px] md:mx-auto md:justify-center lg:mt-20 lg:w-max-[846px]">
+      <div className="m-auto max-w-[375px] md:max-w-[444px] md:mx-auto md:justify-center lg:mt-20 lg:w-max-[846px] lg:mx-0">
         <div>
           <h2 className="text-medium24 mb-4 md:text-center md:text-headLineTextH1 lg:text-start">
             Set goals and achieve them
           </h2>
-          <p className="max-w-[250px] text-regular18 mb-6 text-gray md:text-center md:mx-auto md:text-headLineTextH2 md:max-w-[380px] lg:text-start lg:mx-0">
+          <p className="max-w-[250px] text-regular18 mb-6 text-grey md:text-center md:mx-auto md:text-headLineTextH2 md:max-w-[380px] lg:text-start lg:mx-0">
             The service will help you set goals and follow them.
           </p>
         </div>
