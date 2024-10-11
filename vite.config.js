@@ -15,5 +15,5 @@ export default defineConfig({
       assets: "/src/assets",
     },
   },
-  base: "/for-your-healthy",
+  base: "/for-your-healthy/",
 });

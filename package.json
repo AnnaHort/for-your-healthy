@@ -1,7 +1,6 @@
 {
   "name": "for-your-healthy",
   "private": true,
-  "homepage": "https://annahort.github.io/for-your-healthy",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
