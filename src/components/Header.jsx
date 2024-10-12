@@ -4,10 +4,10 @@ import UserIcon from "../assets/svg/UserIcon";
 const Header = () => {
   return (
     <>
-      <div className="flex justify-between items-center bg-black2 py-4 px-2 md:py-6 md:px-4">
+      <div className="flex justify-between items-center bg-black2 py-4 px-2 md:py-9 md:px-4 lg:px-8">
         <NavLink
           to="/"
-          className="font-bold text-grey aria-[current=page]:text-liteGreen md:text-xl"
+          className="font-bold text-grey aria-[current=page]:text-liteGreen md:text-[22px]"
         >
           HealthyHub
         </NavLink>
