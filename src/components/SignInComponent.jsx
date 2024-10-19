@@ -29,7 +29,7 @@ const SignInComponent = () => {
       </form>
       <div className="flex justify-between md:flex-row md:justify-center md:gap-4 lg:justify-start">
         <p className="text-bodyText1 text-grey">
-          If you don't have an account yet
+          If you don&apos;t have an account yet
         </p>
         <Link to="/signup" className="text-buttonText1">
           Sign up

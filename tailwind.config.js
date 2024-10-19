@@ -14,7 +14,7 @@ export default {
       liteGreen: "#e3ffa8",
       liteGreen2: "#45ffbc",
       grey: "#b6b6b6",
-      gray2: "#292928",
+      grey2: "#292928",
       pink: "#ffc4f7",
       yellow: "#fff3b7",
     },
