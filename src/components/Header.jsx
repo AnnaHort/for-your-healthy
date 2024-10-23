@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import UserIcon from "../assets/svg/UserIcon";
-import BodyParametersPage from "../Pages/BodyParametersPage";
+import YourActivityPage from "../Pages/YourActivityPage";
 
 const Header = () => {
   return (
@@ -39,7 +39,7 @@ const Header = () => {
         </div>
       </div>
       <div className="py-6 px-2.5 md:py-10 md:px-0">
-        <BodyParametersPage />
+        <YourActivityPage />
         {/* <Outlet /> */}
       </div>
     </>
