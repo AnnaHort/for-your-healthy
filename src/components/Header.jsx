@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import UserIcon from "../assets/svg/UserIcon";
-import YourActivityPage from "../Pages/YourActivityPage";
+import GenderPage from "../Pages/GenderPage";
 
 const Header = () => {
   return (
@@ -39,7 +39,7 @@ const Header = () => {
         </div>
       </div>
       <div className="py-6 px-2.5 md:py-10 md:px-0">
-        <YourActivityPage />
+        <GenderPage />
         {/* <Outlet /> */}
       </div>
     </>

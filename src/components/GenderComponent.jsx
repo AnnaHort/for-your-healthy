@@ -1,3 +1,5 @@
+import RadioBtnComponent from "./RadioBtnComponent";
+
 const GenderComponent = () => {
   return (
     <div className="max-w-[375px] m-auto md:max-w-[380px] lg:mt-20 lg:w-[420px] lg:m-0">
@@ -11,15 +13,32 @@ const GenderComponent = () => {
       <form method="post" className="mb-10 ">
         <fieldset className="flex mb-6 flex-col gap-4">
           <legend className="mb-3">Gender</legend>
+          <div className="flex lg:flex-col lg:gap-4">
+            <div className="relative w-full flex items-center gap-2 w-[50%]">
+              <div className="relative flex items-center">
+                <input
+                  type="radio"
+                  id="male"
+                  name="gender"
+                  className="peer opacity-0 z-1 w-4 h-4"
+                />
+                <RadioBtnComponent />
+              </div>
+              <label htmlFor="male">Male</label>
+            </div>
 
-          <div className="w-[50%]">
-            <input type="radio" id="male" name="gender" />
-            <label htmlFor="male">Male</label>
-          </div>
-
-          <div className="w-[50%]">
-            <input type="radio" id="female" name="gender" />
-            <label htmlFor="female">Female</label>
+            <div className="relative w-full flex items-center gap-2 w-[50%]">
+              <div className="relative flex items-center">
+                <input
+                  type="radio"
+                  id="female"
+                  name="gender"
+                  className="peer opacity-0 z-1 w-4 h-4"
+                />
+                <RadioBtnComponent />
+              </div>
+              <label htmlFor="female">Female</label>
+            </div>
           </div>
         </fieldset>
         <div className="flex flex-col gap-3 lg:max-w-[212px]">

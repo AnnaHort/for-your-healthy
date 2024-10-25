@@ -1,3 +1,5 @@
+import RadioBtnComponent from "./RadioBtnComponent";
+
 const YourGoalComponent = () => {
   return (
     <>
@@ -13,22 +15,46 @@ const YourGoalComponent = () => {
           action=""
           className="flex gap-6 flex-col mb-12 md:max-w-[380px] md:m-auto md:mb-[206px] lg:m-0 lg:max-w-[212px] lg:mb-[168px]"
         >
-          <div className="flex items-center gap-2">
-            <input type="radio" id="LoseFat" name="goal" className="" />
-            <label htmlFor="LoseFat" className="">
+          <div className="relative w-full flex items-center gap-2">
+            <div className="relative flex items-center">
+              <input
+                type="radio"
+                name="goal"
+                id="LoseFat"
+                className="peer opacity-0 z-1 w-4 h-4"
+              />
+              <RadioBtnComponent />
+            </div>
+            <label htmlFor="LoseFat" className="text-bodyText1">
               <span>Lose Fat</span>
             </label>
           </div>
 
-          <div className="flex gap-2">
-            <input type="radio" id="Maintain" name="goal" className="" />
+          <div className="relative w-full flex items-center gap-2">
+            <div className="relative flex items-center">
+              <input
+                type="radio"
+                id="Maintain"
+                name="goal"
+                className="peer opacity-0 z-1 w-4 h-4"
+              />
+              <RadioBtnComponent />
+            </div>
             <label htmlFor="Maintain" className="text-white ">
               Maintain
             </label>
           </div>
 
-          <div className="flex gap-2">
-            <input type="radio" id="GainMuscle" name="goal" className="" />
+          <div className="relative w-full flex items-center gap-2">
+            <div className="relative flex items-center">
+              <input
+                type="radio"
+                id="GainMuscle"
+                name="goal"
+                className="peer opacity-0 z-1 w-4 h-4"
+              />
+              <RadioBtnComponent />
+            </div>
             <label htmlFor="GainMuscle" className="text-white">
               Gain Muscle
             </label>
