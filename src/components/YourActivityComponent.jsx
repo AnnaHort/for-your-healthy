@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import RadioBtnComponent from "./RadioBtnComponent";
 
 const YourActivityComponent = () => {
@@ -93,12 +94,19 @@ const YourActivityComponent = () => {
           </fieldset>
           <div className="flex flex-col gap-3 lg:max-w-[212px]">
             <div className="flex flex-col items-center gap-3">
-              <button className="text-buttonText1 bg-liteGreen text-black w-full rounded-xl py-2 px-2.5 md:max-w-[360px]">
-                Sign Up
-              </button>
-              <button className="text-buttonText1 bg-transparent text-grey w-full rounded-xl py-2 px-2.5 md:max-w-[360px]">
+              <Link
+                to="/goals"
+                className="block text-center text-buttonText1 bg-liteGreen text-black w-full rounded-xl py-2 px-2.5"
+              >
+                Next
+              </Link>
+
+              <Link
+                to="/parameters"
+                className="block text-center text-buttonText1 bg-transparent text-grey w-full rounded-xl py-2 px-2.5"
+              >
                 Back
-              </button>
+              </Link>
             </div>
           </div>
         </form>

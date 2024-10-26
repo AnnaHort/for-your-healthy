@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import RadioBtnComponent from "./RadioBtnComponent";
 
 const YourGoalComponent = () => {
@@ -60,12 +61,19 @@ const YourGoalComponent = () => {
             </label>
           </div>
 
-          <button className="buttonText1 bg-liteGreen text-black w-full rounded-xl py-2 px-2.5">
-            Next
-          </button>
-          <button className="buttonText1 bg-transparent text-white w-full rounded-xl py-2 px-2.5">
+          <Link
+            to="#"
+            className="block text-center text-buttonText1 bg-liteGreen text-black w-full rounded-xl py-2 px-2.5"
+          >
+            Sign up
+          </Link>
+
+          <Link
+            to="/activities"
+            className="block text-center text-buttonText1 bg-transparent text-grey w-full rounded-xl py-2 px-2.5"
+          >
             Back
-          </button>
+          </Link>
         </form>
       </div>
     </>

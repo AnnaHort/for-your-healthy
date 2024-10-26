@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 
 const SignUpComponent = () => {
+  // const navigate = useNavigate();
+  // const handleClickNext = () => {
+  //   navigate("/gender"); // Задайте шлях до сторінки, на яку потрібно перейти
+  // };
+
   return (
     <div className="lg:mt-20 lg:w-[420px]">
       <h2 className="text-medium24 mb-4 md:text-center md:text-headLineTextH1 lg:text-start">
@@ -28,9 +33,18 @@ const SignUpComponent = () => {
           placeholder="Password"
           className="w-full bg-black2 border-2 border-liteGreen rounded-xl	py-2 px-2.5 mb-6"
         />
-        <button className="buttonText1 bg-liteGreen text-black w-full rounded-xl py-2 px-2.5">
+        {/* <button
+          onClick={handleClickNext}
+          className="buttonText1 bg-liteGreen text-black w-full rounded-xl py-2 px-2.5"
+        >
           Next
-        </button>
+        </button> */}
+        <Link
+          to="/genders"
+          className="block text-center text-buttonText1 bg-liteGreen text-black w-full rounded-xl py-2 px-2.5"
+        >
+          Next
+        </Link>
       </form>
       <div className="flex flex-col gap-4 md:flex-row md:justify-center lg:justify-start">
         <p className="text-bodyText1 text-grey">

@@ -12,7 +12,7 @@ const StartComponent = () => {
 
   return (
     <div className="m-auto max-w-[375px] md:max-w-[444px] md:mx-auto md:justify-center lg:mt-20 lg:w-max-[846px] lg:mx-0">
-      <div>
+      <div className="max-w-[420px]">
         <h2 className="text-medium24 mb-4 md:text-center md:text-headLineTextH1 lg:text-start">
           Set goals and achieve them
         </h2>

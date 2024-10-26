@@ -3,7 +3,7 @@ const YourActivitySvg = () => {
     <svg
       id="icon-Illustration-Activity-1"
       viewBox="0 0 32 32"
-      className="w-[300px] h-auto md:w-[380px] mx-auto lg:md:w-[592px] mb-6 md:mb-20"
+      className="w-[300px] h-auto md:w-[380px] mx-auto lg:md:w-[592px] mb-6 md:mb-20 lg:mx-0"
     >
       <path
         fill="var(--color1, #fff)"

@@ -23,7 +23,7 @@ const SignInComponent = () => {
           placeholder="Password"
           className="w-full bg-black2 border-2 border-liteGreen rounded-xl py-2 px-2.5 mb-6"
         />
-        <button className="buttonText1 bg-liteGreen text-black w-full rounded-xl py-2 px-2.5">
+        <button className="text-buttonText1 bg-liteGreen text-black w-full rounded-xl py-2 px-2.5">
           Sign In
         </button>
       </form>
